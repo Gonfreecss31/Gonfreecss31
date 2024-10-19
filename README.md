@@ -62,6 +62,15 @@
     </div>
 </div>
 
+
+<script>
+
+  function myMenuFunction() {
+   var i = document.getElementById
+  }
+
+</script>
+
 <script>
     var a= document.GetElementById("loginBtn");
     var b= document.GetElementById("registerBtn");
