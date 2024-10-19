@@ -189,8 +189,12 @@ b   color: □#fff;
     .nav-button{
         display: none;
     }
+    .nav-menu.responsive{
+        top: 100px;
+    }
     .nav-menu{
         position: absolute;
+        top: -800px;
         display: flex;
         justify-content: center;
         background: □rgba(255, 255, 255, 0.2);
