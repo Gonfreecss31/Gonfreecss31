@@ -40,36 +40,26 @@
         <div class="login-container" id="login">
             <div class="top">
                 <span>Don't have an account? <a href="#" onclick="register()"Sign Up</a></span>
-                <header>Sign Up</header>
-            </div>
-            <div class="two-forms">
-                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Firstname">
-                    <i class="bx.bx-user"></i>
-                </div>
-                <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Lastname">
-                    <i class="bx.bx-user"></i>
-                </div>
+                <header>Login</header>
             </div>
             <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Email">
-                    <i class="bx.bx-envelope"></i>
+                    <input type="text" class="input-field" placeholder="User or Email">
+                    <i class="bx.bx-user"></i>
         </div> 
         <div class="input-box">
                     <input type="password" class="input-field" placeholder="Password">
                     <i class="bx.bx-lock-alt"></i>
             </div>
             <div class="input-box">
-                    <input type="submit" class="submit" value="Register">
+                    <input type="submit" class="submit" value="Sign In">
             </div>
             <div class="two-col">
                 <div class="one">
-                    <input type="checkbox" id="register-check">
+                    <input type="checkbox" id="login-check">
                     <label for="register-check"> Remember Me</label>
                 </div>
                 <div class="two">
-                    <label><a href="#">Terms & conditions</a></label>
+                    <label><a href="#">|Forgot password?</a></label>
                 </div>
             </div>
         </div>
