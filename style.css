@@ -13,3 +13,11 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background: ■rgba(39,39,39,0.4);
+}
+.nav
