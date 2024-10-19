@@ -49,6 +49,7 @@
                     <i class="bx.bx-user"></i>
                 </div>
             </div>
+            
         </div> 
     </div>
 </div>
