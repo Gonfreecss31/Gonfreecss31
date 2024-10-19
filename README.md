@@ -49,8 +49,19 @@
                     <i class="bx.bx-user"></i>
                 </div>
             </div>
-            
+            <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Email">
+                    <i class="bx.bx-envelope"></i>
         </div> 
+        <div class="input-box">
+                    <input type="password" class="input-field" placeholder="Password">
+                    <i class="bx.bx-lock-alt"></i>
+            </div>
+            <div class="input-box">
+                    <input type="submit" class="submit" value="Register">
+            </div>
+             
+        </div>
     </div>
 </div>
 </body>
