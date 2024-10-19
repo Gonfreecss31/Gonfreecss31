@@ -77,6 +77,16 @@ body{
 .nav-menu-btn{
     display none;
 }
+.form-box{
+    position: relative;
+    display: flex;
+    align-items: center; 
+    width: 512px;
+    height: 420px;
+    overflow: hidden;
+    z-index: 2;
+}
+
 
 
 
