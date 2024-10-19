@@ -71,15 +71,19 @@
     function login() {
         x.style.left =  "4px";
         y.style.right = "-520px";
-        a.className += "whitebtn";
+        a.className += " whitebtn";
         b.className = "btn";
+        x.style.opacity = 0;
+        y.style.opacity = 1;
     }
 
     function register() {
         x.style.left = "-510px";
         y.style.right = "5px";
-        a.className += "whitebtn";
-        b.className = "btn";
+        a.className = "btn";
+        b.className += "white-btn";
+        x.style.opacity =  0;
+        y.style.opacity =  1;
     }
 
 </script>
