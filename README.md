@@ -60,7 +60,11 @@
             <div class="input-box">
                     <input type="submit" class="submit" value="Register">
             </div>
-             
+            <div class="two-col">
+                <div class="one">
+                    <input type="checkbox" id="register-check">
+                </div>
+            </div>
         </div>
     </div>
 </div>
