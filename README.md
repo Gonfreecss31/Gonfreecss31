@@ -63,7 +63,10 @@
             <div class="two-col">
                 <div class="one">
                     <input type="checkbox" id="register-check">
+                    <label for="register-check"> Remember Me</label>
                 </div>
+                <div class="two">
+                    <label><a href="#">Terms & conditions</a></label>
             </div>
         </div>
     </div>
