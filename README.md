@@ -37,7 +37,13 @@
         <div.register-container" id="register">
             <div class="top">
                 <span>Have an accoun? <a href="#" onclick="login()">Login</a></span>
-                
+                <header>Sign Up</header>
+            </div>
+            <div class="two-forms">
+                 <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Firstname">
+                    <i class="bx.bx-user"></i>
+                </div>
             </div>
         </div> 
     </div>
