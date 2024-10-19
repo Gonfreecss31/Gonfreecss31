@@ -30,6 +30,14 @@
             <i class="bx bx-menu"></i>
         </div>
     </nav>
+    
+<!-------------------- Form box -------------------->
+    <div class="form-box">
+        <!------------------ registration form ------------------>
+        <div.register-container">
+         
+        </div> 
+    </div>
 </div>
 </body>
 </html>
