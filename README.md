@@ -61,6 +61,15 @@
         </div>
     </div>
 </div>
+
+<script>
+    var a= document.GetElementById("loginBtn");
+    var b= document.GetElementById("registerBtn");
+    var x= document.GetElementById("login");
+    var y= document.GetElementById("register");
+
+</script>
+
 </body>
 </html>
 
