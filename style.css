@@ -224,6 +224,23 @@ b   color: □#fff;
         background: □rgba(255, 255, 255, 0.15);
     }
 }
+@media only screen and (max-width: 540px) {
+    .wrapper{
+        min-height: 100vh;
+    }
+    .form-box{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .register-container, .login-container{
+    width: 100%;
+    paddin: 0 20px;
+    }
+    .register-container .two-forms{
+        flex-direction: column;
+        gap: 0; 
+    }
+}
 
   
 
