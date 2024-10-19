@@ -13,7 +13,7 @@
         <div class="nav-logo">
             <p>LOGO .</p>
         </div>
-        <div class="nav-menu">
+        <div class="nav-menu" id="navMenu">
             <ul>
                 <li><a href="#" class="link active">Home</a></li>
                 <li><a href="#" class="link">Blog</a></li>
@@ -26,11 +26,11 @@
             <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
         </div>
         <div class="nav-menu-btn">
-            <i class="bx bx-menu" onclick="mymenufunction()"></i>
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
         </div>
     </nav>
-    
-<!-------------------- Form box -------------------->
+
+    <!-------------------- Form box -------------------->
     <div class="form-box">
         <!------------------ login form ------------------>
         <div class="login-container" id="login">
@@ -59,51 +59,71 @@
                 </div>
             </div>
         </div>
+
+        <!------------------ register form ------------------>
+        <div class="register-container" id="register">
+            <div class="top">
+                <span>Already have an account? <a href="#" onclick="login()">Sign In</a></span>
+                <header>Register</header>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Username">
+                <i class="bx bx-user"></i>
+            </div> 
+            <div class="input-box">
+                <input type="email" class="input-field" placeholder="Email">
+                <i class="bx bx-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" placeholder="Password">
+                <i class="bx bx-lock-alt"></i>
+            </div>
+            <div class="input-box">
+                <input type="submit" class="submit" value="Sign Up">
+            </div>
+        </div>
     </div>
 </div>
 
+<!-- JavaScript Functions -->
 
 <script>
-
   function myMenuFunction() {
    var i = document.getElementById("navMenu");
 
-   if(i.className === "nav-menu") {
+   if (i.className === "nav-menu") {
        i.className += " responsive";
    } else {
        i.className = "nav-menu";
    }
   }
-
 </script>
 
 <script>
-    var a= document.GetElementById("loginBtn");
-    var b= document.GetElementById("registerBtn");
-    var x= document.GetElementById("login");
-    var y= document.GetElementById("register");
+    var a = document.getElementById("loginBtn");
+    var b = document.getElementById("registerBtn");
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
 
     function login() {
-        x.style.left =  "4px";
+        x.style.left = "4px";
         y.style.right = "-520px";
-        a.className += " whitebtn";
-        b.className = "btn";
-        x.style.opacity = 0;
-        y.style.opacity = 1;
+        a.classList.add("white-btn");
+        b.classList.remove("white-btn");
+        x.style.opacity = 1;
+        y.style.opacity = 0;
     }
 
     function register() {
         x.style.left = "-510px";
         y.style.right = "5px";
-        a.className = "btn";
-        b.className += "white-btn";
-        x.style.opacity =  0;
-        y.style.opacity =  1;
+        a.classList.remove("white-btn");
+        b.classList.add("white-btn");
+        x.style.opacity = 0;
+        y.style.opacity = 1;
     }
-
 </script>
 
 </body>
 </html>
-
 
