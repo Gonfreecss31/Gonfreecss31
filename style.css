@@ -88,6 +88,16 @@ body{
     z-index: 2;
 }
 .register-container{
+    position: absolute;
+    right: -520px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+}
+.register-container{
+    position: absolute;
+    right: -520px;
     width: 500px;
     display: flex;
     flex-direction: column;
