@@ -71,12 +71,16 @@
     function login() {
         x.style.left =  "4px";
         y.style.right = "-520px";
+        a.className += "whitebtn";
+        b.className = "btn";
     }
 
     function register() {
         x.style.left = "-510px";
         y.style.right = "5px";
-}
+        a.className += "whitebtn";
+        b.className = "btn";
+    }
 
 </script>
 
