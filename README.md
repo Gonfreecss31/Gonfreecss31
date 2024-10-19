@@ -67,6 +67,7 @@
                 </div>
                 <div class="two">
                     <label><a href="#">Terms & conditions</a></label>
+                </div>
             </div>
         </div>
     </div>
