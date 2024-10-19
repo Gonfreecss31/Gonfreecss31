@@ -62,11 +62,21 @@ body{
     cursor: pointer;
     transition: .3s ease;
 }
+.btn:hover{
+    background: □rgba(255, 255, 255, 0.3);
+}
 #registerBtn{
     margin-left: 15px;
 }
-.btn
-
+.btn.white-btn{
+    background: □rgba(255, 255, 255, 0.7);
+}
+.btn.btn.white-btn:hover{
+    background: □rgba(255, 255, 255, 0.5);
+}
+.nav-menu-btn{
+    display none;
+}
 
 
 
