@@ -34,8 +34,11 @@
 <!-------------------- Form box -------------------->
     <div class="form-box">
         <!------------------ registration form ------------------>
-        <div.register-container">
-         
+        <div.register-container" id="register">
+            <div class="top">
+                <span>Have an accoun? <a href="#" onclick="login()">Login</a></span>
+                
+            </div>
         </div> 
     </div>
 </div>
