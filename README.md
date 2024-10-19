@@ -23,7 +23,7 @@
             </ul>
         </div>
         <div class="nav-button">
-            <button class="btn" id="loginBtn">Sign In</button>
+            <button class="btn white-btn" id="loginBtn">Sign In</button>
             <button class="btn" id="registerBtn">Sign Up</button>
         </div>
         <div class="nav-menu-btn">
