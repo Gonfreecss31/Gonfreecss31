@@ -9,6 +9,7 @@
     <title>Ludiflex | Login & Registration</title>
 </head>
 <body>
+<div class="wrapper">
     <nav class="nav">
         <div class="nav-logo">
             <p>LOGO .</p>
@@ -29,6 +30,7 @@
             <i class="bx bx-menu"></i>
         </div>
     </nav>
+</div>
 </body>
 </html>
 
