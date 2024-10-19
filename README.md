@@ -44,6 +44,10 @@
                     <input type="text" class="input-field" placeholder="Firstname">
                     <i class="bx.bx-user"></i>
                 </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Lastname">
+                    <i class="bx.bx-user"></i>
+                </div>
             </div>
         </div> 
     </div>
