@@ -39,7 +39,7 @@
         <!------------------ login form ------------------>
         <div class="login-container" id="login">
             <div class="top">
-                <span>Don't have an accoun? <a href="#" onclick="register()"Sign Up</a></span>
+                <span>Don't have an account? <a href="#" onclick="register()"Sign Up</a></span>
                 <header>Sign Up</header>
             </div>
             <div class="two-forms">
