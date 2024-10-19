@@ -111,6 +111,29 @@ b   color: □#fff;
     text-align: center;
     padding: 10px 0 30px 0;
 }
+.two-forms{
+    display: flex;
+    gap: 10px;
+}
+.input-field{
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    color: □#fff
+    height: 50px;
+    width: 100%;
+    padding: 0 10px 0 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: .2s ease;   
+}
+::webkit-input-placeholder{
+   color: #fff;
+}
+
+  
+
+
 
 
 
