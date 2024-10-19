@@ -84,11 +84,12 @@ body{
     justify-content: center;
     width: 512px;
     height: 420px;
-    overflow: hidden;
+    border: 1px solid □#fff;
     z-index: 2;
 }
-.register-container{
+.login-container{
     position: absolute;
+    left: 4px;
     right: -520px;
     width: 500px;
     display: flex;
