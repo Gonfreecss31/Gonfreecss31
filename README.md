@@ -26,4 +26,9 @@
             <button class="btn" id="registerBtn">Sign Up</button>
         </div>
         <div class="nav-menu-btn">
+            <i class="bx bx-menu"></i>
+        </div>
+    </nav>
+</body>
+</html>
 
