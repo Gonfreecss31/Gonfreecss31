@@ -127,8 +127,52 @@ b   color: □#fff;
     outline: none;
     transition: .2s ease;   
 }
+.input-field:hover, .input-field:focus{
+    background: □rgba(255, 255, 255, 0.25);
+}
 ::webkit-input-placeholder{
    color: #fff;
+}
+.input-box i{
+   position: relative;
+   top: -35px;
+   left:  17px;
+   color: □#fff;
+}
+.submit{
+    font-size: 15px;
+    font-weight: 500;
+    color: ■black;
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: □rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.submit:hover{
+    background: □rgba(255, 255, 255, 0.5)
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    justify-content: space-between;
+    color: □#fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.two-col .one{
+    display: flex;
+    gap: 5px;
+}
+.two label a{
+    text-decoration: none;
+    color: □#fff;
+}
+.two label a:hover{
+    
 }
 
   
